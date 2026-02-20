@@ -40,8 +40,3 @@ services:
 
 volumes:
   pihole_data:
-    driver: local
-    driver_opts:
-      type: 'none'
-      o: 'bind'
-      device: '/srv/docker/volumes/pihole/data'
