@@ -37,3 +37,7 @@ services:
       # Optional, if Pi-hole should get some more processing time
       - SYS_NICE
     restart: unless-stopped
+
+volumes:
+  pihole_data:
+    driver: local
